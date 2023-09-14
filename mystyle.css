@@ -1,0 +1,283 @@
+.intro_img {
+ 	width: 1330px; /* Set the width of the image */
+    height: auto;
+    margin:0px 0px 0px 0px;
+}
+
+.center_img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_left {
+    display: flex;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+.img_right {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+
+.overlay { /* main page overlay */
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    color: #EEB8C4;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    text-shadow: 5px 2px 1px #111;
+    cursor: pointer;
+}
+  
+.overlay1 {  /* extra pages overlay */
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    color: #EEB8C4;
+    padding: 5px;
+    text-shadow: 5px 2px 1px #111;
+    cursor: pointer;
+}
+
+.font_1 {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+img{
+	width: 100px; /* Set the width of the image */
+    height: auto;
+}
+
+img.g {
+    float:right;
+    width:550px;
+    padding:40px 25px;
+    margin-right: 30px;
+}
+
+img.gStyle {
+    float:right;
+    width:200px;
+    padding:40px 25px;
+    margin-right: 30px;
+}
+
+
+.navbar {
+    font-family: Raleway;
+    font-size: 20px;
+    padding: 14px 30px;
+    text-align: center;
+    curser: pointer;
+    background-color: #9C808E;
+}
+
+.navbar a{
+    text-align: center;
+    padding: 15px 30px;
+    color: #CBCBCB;
+}
+
+.navbar a:hover {
+    background-color: #F3F3F3;
+    color: black;
+    opacity: 0.5;
+}
+
+/* ---------------------------------------- */
+
+.table {
+    width:100%;
+    border:2px solid;
+    padding: 0px;
+    margin-right: 10px;
+    color: #EEE;
+}
+
+.container {
+    max-width: 1000px;
+    margin-right:auto;
+    margin-left:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:0px;
+}
+
+.table-header {
+    display:flex;
+    width:auto%;
+    background:#818181;
+    padding: 10px;
+    color: #000;
+
+}
+
+.table-row {
+    display:flex;
+    width:auto%;
+    padding: 10px;
+    background-color: #555;
+}
+
+.table-data {
+    flex: 1 1 0%;
+    text-align:center;
+    color: #EEB8C4;
+
+}
+
+.header__item {
+    flex: 1 1 0%;
+    text-align:center;
+    color: #EEE;
+
+}
+
+/* ---------------------------------------- */
+
+.formatted-list {
+    list-style-type: square; 
+    margin-left: 20px; 
+    padding-left: 20px; 
+}
+
+/* ---------------------------------------- */
+
+body1 { 
+    background: #2F252A;
+    color: #FFF;
+    margin:0;
+}
+
+
+
+body {  /* a */
+	background-color: #2F252A;
+}
+
+p.text_color { /* b */
+    color: #EEB8C4;
+}
+
+.paragraph_font{ /* c */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph_font_size { /* d */
+    font-size: 18px;
+}
+
+.text_align { /* e */
+    text-align: left;
+}
+
+.border { 
+    border-style: outset;
+    border-width: 6px;
+}
+
+.border_table { /* f */         /*   Q3 */
+    border-style: outset;
+    border-width: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 950px;
+    padding:5px 5px 5px 5px;
+    
+}
+
+p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+.border.sizer{  /*not using rn*/
+    height:500px;
+    padding: 20px 20px;
+}
+
+.img_sizer{
+    padding: auto;
+}
+
+p.right {
+    width:170px;
+    height:170px;
+    margin-left:15px;"
+}
+
+p.padding{
+    padding-left: 50px;
+    padding-right: 400px;
+}
+
+
+
+
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    position: relative;
+}
+
+.number {
+    font-size: 50px;
+    padding-left: 300px; 
+
+}
+
+
+.content {
+    display: grid;
+    grid-gap: 10px;
+    padding: 15px 0;
+}
+
+.center { text-align: center; }
+
+.container1 {
+
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+
+
+hr {  /* a line function */
+    height:5px;
+    border-width:0;
+    background-color:#999;
+}
+
+
+video{
+	max-width: 50%;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+video.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+video.main {
+    display: block;
+    margin-left: 20px;
+    
+
+}
+
